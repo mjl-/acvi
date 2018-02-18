@@ -1,3 +1,4 @@
+// Acme & vi crossover editor, created with duit.
 package main
 
 import (
