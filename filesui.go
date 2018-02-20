@@ -64,7 +64,6 @@ func (ui *filesUI) add(file *fileUI) {
 		ui.heights = append(append(append([]int{}, ui.heights[:lgi]...), ui.heights[lgi]/2-ui.marginY(), ui.heights[lgi]-ui.heights[lgi]/2), ui.heights[lgi+1:]...)
 	}
 	dui.MarkLayout(nil)
-	dui.Render()
 	dui.Focus(file)
 }
 
@@ -89,7 +88,6 @@ func (ui *filesUI) remove(file *fileUI) {
 			ui.Box.Kids = duit.NewKids(&white{})
 		}
 		dui.MarkLayout(nil)
-		dui.Render()
 		dui.Focus(file)
 		return
 	}

@@ -77,6 +77,7 @@ func main() {
 	topUI = newMainUI(args)
 	dui.Top.UI = topUI
 	dui.Top.ID = "columns"
+	dui.Render()
 
 	for {
 		select {
