@@ -1,0 +1,5 @@
+# 9fans.net/go v0.0.0-00010101000000-000000000000 => github.com/mjl-/go v0.0.0-20180429123528-fafada5f286e
+9fans.net/go/draw
+9fans.net/go/draw/drawfcall
+# github.com/mjl-/duit v0.0.0-20190531054125-a1c247ae783d
+github.com/mjl-/duit
